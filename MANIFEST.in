@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tvs_theme *.css
+recursive-include tvs_theme *.csv
+recursive-include tvs_theme *.html
+recursive-include tvs_theme *.ico
+recursive-include tvs_theme *.js
+recursive-include tvs_theme *.json
+recursive-include tvs_theme *.md
+recursive-include tvs_theme *.png
+recursive-include tvs_theme *.py
+recursive-include tvs_theme *.svg
+recursive-include tvs_theme *.txt
+recursive-exclude tvs_theme *.pyc
