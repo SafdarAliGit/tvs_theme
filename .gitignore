@@ -4,3 +4,4 @@
 *.swp
 tags
 tvs_theme/docs/current
+node_modules/

@@ -9,8 +9,8 @@ from tvs_theme import __version__ as version
 setup(
 	name="tvs_theme",
 	version=version,
-	description="App for TVS.",
-	author="TVS",
+	description="Theme for ERPNext",
+	author="NAsir khan",
 	author_email="work.nasirkhan@gmail.com",
 	packages=find_packages(),
 	zip_safe=False,

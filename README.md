@@ -1,6 +1,6 @@
 ## Tvs Theme
 
-App for TVS.
+Theme for ERPNext
 
 #### License
 

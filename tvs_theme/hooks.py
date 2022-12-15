@@ -2,10 +2,8 @@ from . import __version__ as app_version
 
 app_name = "tvs_theme"
 app_title = "Tvs Theme"
-app_publisher = "TVS"
-app_description = "App for TVS."
-app_icon = "octicon octicon-file-directory"
-app_color = "grey"
+app_publisher = "NAsir khan"
+app_description = "Theme for ERPNext"
 app_email = "work.nasirkhan@gmail.com"
 app_license = "MIT"
 
@@ -52,6 +50,15 @@ app_license = "MIT"
 
 # automatically create page for each record of this doctype
 # website_generators = ["Web Page"]
+
+# Jinja
+# ----------
+
+# add methods and filters to jinja environment
+# jinja = {
+# 	"methods": "tvs_theme.utils.jinja_methods",
+# 	"filters": "tvs_theme.utils.jinja_filters"
+# }
 
 # Installation
 # ------------
@@ -118,10 +125,10 @@ app_license = "MIT"
 # 	],
 # 	"weekly": [
 # 		"tvs_theme.tasks.weekly"
-# 	]
+# 	],
 # 	"monthly": [
 # 		"tvs_theme.tasks.monthly"
-# 	]
+# 	],
 # }
 
 # Testing
@@ -151,26 +158,26 @@ app_license = "MIT"
 # User Data Protection
 # --------------------
 
-user_data_fields = [
-	{
-		"doctype": "{doctype_1}",
-		"filter_by": "{filter_by}",
-		"redact_fields": ["{field_1}", "{field_2}"],
-		"partial": 1,
-	},
-	{
-		"doctype": "{doctype_2}",
-		"filter_by": "{filter_by}",
-		"partial": 1,
-	},
-	{
-		"doctype": "{doctype_3}",
-		"strict": False,
-	},
-	{
-		"doctype": "{doctype_4}"
-	}
-]
+# user_data_fields = [
+# 	{
+# 		"doctype": "{doctype_1}",
+# 		"filter_by": "{filter_by}",
+# 		"redact_fields": ["{field_1}", "{field_2}"],
+# 		"partial": 1,
+# 	},
+# 	{
+# 		"doctype": "{doctype_2}",
+# 		"filter_by": "{filter_by}",
+# 		"partial": 1,
+# 	},
+# 	{
+# 		"doctype": "{doctype_3}",
+# 		"strict": False,
+# 	},
+# 	{
+# 		"doctype": "{doctype_4}"
+# 	}
+# ]
 
 # Authentication and authorization
 # --------------------------------
